@@ -10,8 +10,8 @@ export const Approutes: Routes = [
 
   {
     path: '',
-    canActivate: [AuthGuard],
-    canActivateChild: [AuthGuard],
+    // canActivate: [AuthGuard],
+    // canActivateChild: [AuthGuard],
     component: FullComponent,
     children: [
       { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
